@@ -1,0 +1,209 @@
+/* Remove margins and padding from widgets */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Base Application Background */
+QWidget, QMainWindow, QPlainTextEdit {
+    background-color: #282c2e;
+    font-family: "Segoe UI", sans-serif;
+    border: none; /* Removed the border */
+}
+
+/* Set global text color */
+QLabel, QPushButton, QLineEdit, QTextEdit, QComboBox {
+    color: #E6E6E6;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Set background and border for QLineEdit */
+QLineEdit {
+    background-color: #1e2022;
+    border: none; /* Removed the white border */
+    border-radius: 2px;
+    font-family: "Consolas", monospace;
+}
+
+/* Set background for QComboBox */
+QComboBox {
+    background-color: #40474F;
+    border: none; /* Removed the white border */
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Set background for QComboBox dropdown */
+QComboBox QAbstractItemView {
+    background-color: #40474F;
+    border: none; /* Removed the white border */
+    selection-background-color: #40474F; /* Lighter color on selected items */
+    color: #E6E6E6;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Set background for QPushButton */
+QPushButton {
+    background-color: #40474F;
+    border: none; /* Removed the white border */
+    font-family: "Segoe UI", sans-serif;
+    height: 30px; /* Increase button height */
+}
+
+/* Add an overlay effect to buttons */
+QPushButton:hover {
+    background-color: #546c5a; /* Adjust this color to match your theme */
+}
+
+/* Set style for tabs */
+QTabWidget, QTabBar::tab:top, QTabBar::tab:selected, QTabBar::tab:!selected:hover,
+QTabBar QToolButton, QTabBar::close-button:selected, QTabBar::close-button:!selected {
+    background: #252b29;
+    border: none; /* Removed the border */
+    font-family: "Segoe UI", sans-serif;
+}
+
+QTabBar::tab:top:!selected,
+QTabBar::tab:top:selected,
+QTabBar::tab:top:!selected:hover {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 2px 8px;
+    padding-top: 0;
+    padding-bottom: 3px;
+    min-width: 8ex;
+    border-bottom: none; /* Removed the border */
+}
+
+/* Lighter color for selected tab */
+QTabBar::tab:selected {
+    background-color: #303336; /* Lighter color on selected tab */
+}
+
+QTabBar QToolButton {
+    font-family: "Segoe UI", sans-serif;
+}
+
+QTabBar::close-button:selected {
+    image: url(":icons/tab_close_btn.png");
+    origin: border;
+    subcontrol-origin: border;
+    subcontrol-position: right bottom;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Set text and title color to white */
+QLabel, QPushButton, QLineEdit, QTextEdit, QTabBar::tab, QComboBox::title {
+    color: #FFFFFF;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: normal; /* You can set the desired font weight */
+}
+
+QMainWindow {
+    background-color: #282c2e;
+    border: none; /* Set border to transparent */
+}
+
+QPlainTextEdit {
+    background-color: #282c2e;
+    border: none; /* Removed the border */
+    color: #FFFFFF;
+}
+
+/* Set global text color */
+QLabel, QPushButton, QLineEdit, QTextEdit, QComboBox, QCheckBox {
+    color: #FFFFFF; /* Set text color to white */
+    font-family: "Segoe UI", sans-serif;
+}
+
+* {
+    color: #FFFFFF;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: normal; /* You can set the desired font weight */
+}
+
+/* Adjust the width of the items in the list */
+QTableView QTableCornerButton::section,
+QTableView QHeaderView::section {
+    min-width: 0px; /* Adjust the minimum width as needed */
+    width: 0px; /* Adjust the width as needed */
+}
+
+/* Set border color of the listed elements to red */
+QTableView {
+    border: 0px solid #45ba6a;
+}
+
+/* Customize the scrollbar color */
+QScrollBar:vertical {
+    background: #4d5953; /* Background color of the scrollbar */
+    border: none; /* Remove border */
+    width: 10px; /* Set width of the scrollbar */
+}
+
+QScrollBar::handle:vertical {
+    background: #31ccc4; /* Color of the scrollbar handle */
+    min-height: 20px; /* Set minimum height of the scrollbar handle */
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    background: #282c2e; /* Background color of the arrow buttons */
+    height: 10px; /* Set height of the arrow buttons */
+}
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: none; /* Set background of the scrollbar page */
+}
+
+/* Set border color of the listed elements to red */
+QTableView {
+    border: none; /* Remove existing border */
+}
+
+/* Remove border around tabs in QTabWidget */
+QTabWidget::pane {
+    border: none;
+}
+
+/* Add border to the bottom of each list element */
+QTableView::item {
+    border-bottom: 1px solid #5da6ff;
+}
+
+QListWidget::item:selected {
+    color: #FFFFFF;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #546c5a; /* Adjust this color to match your theme */
+}
+
+QListWidget::item:focus {
+    outline: none;
+}
+
+/* Modify header sections to remove the column numbers */
+QTableView QHeaderView::section {
+    border: none; /* Remove border */
+    background-color: transparent; /* Set background color to transparent */
+    color: #FFFFFF; /* Set text color to white */
+    font-weight: normal; /* Set font weight */
+    height: 0px;
+}
+
+/* Modify header sections to remove the column numbers */
+QTableView QHeaderView::section {
+    border: none; /* Remove border */
+    background-color: transparent; /* Set background color to transparent */
+    color: #FFFFFF; /* Set text color to white */
+    font-weight: normal; /* Set font weight */
+    height: 0px;
+}
+
+/* Set background color for selected item */
+QTableView::item:selected {
+    background-color: #FFFFFF; /* Set background color to white */
+    color: #000000; /* Set text color to black */
+}

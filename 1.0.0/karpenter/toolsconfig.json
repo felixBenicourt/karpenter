@@ -1,0 +1,198 @@
+{
+    "maya": {
+        "cmd": "rez env k_maya -- maya",
+        "type": "rez",
+        "tags": [
+            "3d"
+        ]
+    },
+    "houdini": {
+        "cmd": "rez env k_houdini -- houdini",
+        "type": "rez",
+        "tags": [
+            "3d"
+        ]
+    },
+    "guerilla": {
+        "type": "rez",
+        "cmd": "rez env guerilla -- guerilla",
+        "tags": [
+            "3d"
+        ]
+    },
+    "iter": {
+        "cmd": "rez env iter -- iter",
+        "type": "rez",
+        "tags": [
+            "dev"
+        ]
+    },
+    "iter py": {
+        "cmd": "rez env iter -- iterpy",
+        "type": "rez",
+        "tags": [
+            "dev"
+        ]
+    },
+    "photoshop": {
+        "type": "rez",
+        "cmd": "rez env photoshop -- photoshop",
+        "tags": [
+            "2d"
+        ]
+    },
+    "blender": {
+        "type": "rez",
+        "cmd": "rez env blender -- blender",
+        "tags": [
+            "3d"
+        ]
+    },
+    "substance painter": {
+        "type": "rez",
+        "cmd": "rez env substance_painter -- painter",
+        "tags": [
+            "3d"
+        ]
+    },
+    "substance designer": {
+        "type": "rez",
+        "cmd": "rez env substance_designer -- designer",
+        "tags": [
+            "3d"
+        ]
+    },
+    "vs code": {
+        "type": "rez",
+        "cmd": "rez env vsCode -- Code",
+        "tags": [
+            "dev"
+        ]
+    },
+    "sublime text": {
+        "cmd": "rez env sublimeText -- sublime_text",
+        "type": "rez",
+        "tags": [
+            "dev"
+        ]
+    },
+    "pure ref": {
+        "cmd": "rez env pureref -- PureRef",
+        "type": "rez",
+        "tags": [
+            "2d"
+        ]
+    },
+    "zbrush": {
+        "cmd": "rez env ZBrush -- ZBrush",
+        "type": "rez",
+        "tags": [
+            "3d"
+        ]
+    },
+    "test maya": {
+        "cmd": "import maya.cmds as cmds\n\ncmds.polyCube(n=\"test\")\n",
+        "type": "python",
+        "tags": [
+            "maya"
+        ]
+    },
+    "comfy UI folder": {
+        "cmd": "explorer \"C:\\Users\\felix\\AppData\\Roaming\\StabilityMatrix\\Packages\\ComfyUI\"",
+        "type": "rez",
+        "tags": [
+            "folder"
+        ]
+    },
+    "template project folder": {
+        "cmd": "explorer \"C:\\HOME\\proj\\template\"",
+        "type": "rez",
+        "tags": [
+            "folder"
+        ]
+    },
+    "PROD pipeline folder": {
+        "cmd": "explorer \"C:\\pipeline\\PROD\"",
+        "type": "rez",
+        "tags": [
+            "folder"
+        ]
+    },
+    "amiral project folder": {
+        "cmd": "explorer \"C:\\00_baseSculptMale\\00_amiral\"",
+        "type": "rez",
+        "tags": [
+            "folder"
+        ]
+    },
+    "symbioth project folder": {
+        "cmd": "explorer \"C:\\00_baseSculptMale\\00_amiral\"",
+        "type": "rez",
+        "tags": [
+            "folder"
+        ]
+    },
+    "recordObs folder": {
+        "cmd": "explorer \"C:\\recordObs\"",
+        "type": "rez",
+        "tags": [
+            "folder"
+        ]
+    },
+    "unreal": {
+        "cmd": "rez env unreal -- UnrealEditor",
+        "type": "rez",
+        "tags": [
+            "3d"
+        ]
+    },
+    "generate dungeon patern": {
+        "cmd": "py \"c:/pipeline/PROD/iterCmds/1.0.1/iterCmds/generate_patern.py\"",
+        "type": "rez",
+        "tags": [
+            "test"
+        ]
+    },
+    "natron": {
+        "cmd": "rez env natron -- Natron",
+        "type": "rez",
+        "tags": [
+            "2d"
+        ]
+    },
+    "xampp htdocs folder": {
+        "cmd": "explorer \"C:\\xampp\\htdocs\"",
+        "type": "rez",
+        "tags": [
+            "sql"
+        ]
+    },
+    "unreal code python folder": {
+        "cmd": "explorer \"C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Plugins\\MovieScene\\SequencerScripting\\Content\\Python\"",
+        "type": "rez",
+        "tags": [
+            "python "
+        ]
+    },
+    "stability matrix": {
+        "cmd": "rez env k_stabilityMatrix -- StabilityMatrix",
+        "type": "rez",
+        "tags": [
+            "stability matrix"
+        ]
+    },
+    "sql xamp folder": {
+        "cmd": "explorer \"C:\\xampp\\mysql\\data\"",
+        "type": "rez",
+        "tags": [
+            "sql"
+        ]
+    },
+    "krita": {
+        "cmd": "rez env krita -- krita",
+        "type": "rez",
+        "tags": [
+            "2d"
+        ]
+    }
+}
