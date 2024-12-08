@@ -37,12 +37,6 @@ Karpenter is a versatile tool designed to manage and execute scripts across mult
     pip install PyQt5 qtpy
     ```
 
-3. (Optional) Set up a Rez environment:
-
-    ```bash
-    rez env karpenter -- karpenter
-    ```
-
 ## Usage
 
 Here’s a demonstration of Karpenter in action:
