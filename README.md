@@ -72,6 +72,7 @@ rez env k_maya -- maya
 
 #### Execute Commands
 ![edit cmd](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXUwa3MzamNmbWY4czJjaDlnaDU0YjMxOHp5em8wd2VlenpmMmhweCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6AswTMjNWlqoguxHuw/giphy.webp)
+
 You can edit your commands.
 
 - Title : the displayed title in the searchbar.
@@ -81,6 +82,7 @@ You can edit your commands.
 
 #### Execute Script
 ![execute script](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExam56ZmZjN3VvZ3g3ZGUwaWpxeWozMGN2bHR6NDg4Zmd1MzVsMHl5MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/k5NAceIsLmXWk9caCl/giphy.gif)
+
 here a demo of the python script executed on the selected maya instance.
 ```python
 import maya.cmds as cmds
