@@ -109,6 +109,7 @@ rez env karpenter -- karpenter
 ```
 
 ## License
+```text
 Custom License Agreement
 
 Copyright (c) 2024 Felix Benicourt
@@ -135,7 +136,7 @@ subject to the following conditions:
      FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS 
      IN THE SOFTWARE.
 
-
+```
 
 
 
