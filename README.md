@@ -57,7 +57,7 @@ Here’s a demonstration of Karpenter in action:
 
 ![edit cmd](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXUwa3MzamNmbWY4czJjaDlnaDU0YjMxOHp5em8wd2VlenpmMmhweCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6AswTMjNWlqoguxHuw/giphy.webp)
 
-![execute script](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDlkb2N2djh6enhkdGVhNHhjdDE4YjJtNGVpcDdpOHprdTc5NG56eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TWbd0cqiDUJbKX4zyT/giphy.webp)
+![execute script](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExam56ZmZjN3VvZ3g3ZGUwaWpxeWozMGN2bHR6NDg4Zmd1MzVsMHl5MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/k5NAceIsLmXWk9caCl/giphy.gif)
 
 ### Launching the Tool
 
