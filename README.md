@@ -2,6 +2,17 @@
 
 Karpenter is a versatile tool designed to manage and execute scripts across multiple DCC (Digital Content Creation) applications like Maya, Houdini, Unreal, and Blender. It features an intuitive UI built with PyQt and supports configuration management, instance detection, and dynamic script execution.
 
+---
+
+## Table of Contents
+
+- [Features](#Features)
+- [Installation](#snstallation)
+- [Usage](#Usage)
+- [License](#License)
+
+---
+
 ## Features
 
 - **Toolbox UI**: Search, filter, and execute scripts with ease.
@@ -125,6 +136,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+
+
 
 
 
