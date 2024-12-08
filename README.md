@@ -97,6 +97,7 @@ Run the main entry script:
 
 ```bash
 rez env karpenter -- karpenter
+```
 
 ## License
 **MIT License**:
