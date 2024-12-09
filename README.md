@@ -79,7 +79,7 @@ rez env k_maya -- maya
 
 ---
 
-#### Execute Commands
+#### Edit Commands
 ![edit cmd](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXUwa3MzamNmbWY4czJjaDlnaDU0YjMxOHp5em8wd2VlenpmMmhweCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6AswTMjNWlqoguxHuw/giphy.webp)
 
 You can edit your commands.
