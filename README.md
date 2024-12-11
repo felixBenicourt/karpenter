@@ -48,6 +48,14 @@ Karpenter is a versatile tool designed to manage and execute scripts across mult
 
 ## Usage
 
+### Launching the Tool
+
+Run the main entry script:
+
+```bash
+rez env karpenter -- karpenter
+```
+
 ### Demonstration of Karpenter in Action
 
 #### Search Bar
@@ -97,15 +105,6 @@ here a demo of the python script executed on the selected maya instance.
 import maya.cmds as cmds
 
 cmds.polyCube(n="imhere")
-```
-
-
-### Launching the Tool
-
-Run the main entry script:
-
-```bash
-rez env karpenter -- karpenter
 ```
 
 ## License
